@@ -1,0 +1,306 @@
+{
+    "$ref": "#/definitions/Comment",
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "definitions": {
+        "Comment": {
+            "additionalProperties": false,
+            "properties": {
+                "all_awardings": {
+                    "items": {},
+                    "type": "array"
+                },
+                "approved_at_utc": {
+                    "type": "null"
+                },
+                "approved_by": {
+                    "type": "null"
+                },
+                "archived": {
+                    "type": "boolean"
+                },
+                "associated_award": {
+                    "type": "null"
+                },
+                "author": {
+                    "type": "string"
+                },
+                "author_flair_background_color": {
+                    "type": "null"
+                },
+                "author_flair_css_class": {
+                    "type": "null"
+                },
+                "author_flair_richtext": {
+                    "items": {},
+                    "type": "array"
+                },
+                "author_flair_template_id": {
+                    "type": "null"
+                },
+                "author_flair_text": {
+                    "type": "null"
+                },
+                "author_flair_text_color": {
+                    "type": "null"
+                },
+                "author_flair_type": {
+                    "type": "string"
+                },
+                "author_fullname": {
+                    "type": "string"
+                },
+                "author_is_blocked": {
+                    "type": "boolean"
+                },
+                "author_patreon_flair": {
+                    "type": "boolean"
+                },
+                "author_premium": {
+                    "type": "boolean"
+                },
+                "awarders": {
+                    "items": {},
+                    "type": "array"
+                },
+                "banned_at_utc": {
+                    "type": "null"
+                },
+                "banned_by": {
+                    "type": "null"
+                },
+                "body": {
+                    "type": "string"
+                },
+                "body_html": {
+                    "type": "string"
+                },
+                "can_gild": {
+                    "type": "boolean"
+                },
+                "can_mod_post": {
+                    "type": "boolean"
+                },
+                "collapsed": {
+                    "type": "boolean"
+                },
+                "collapsed_because_crowd_control": {
+                    "type": "null"
+                },
+                "collapsed_reason": {
+                    "type": "null"
+                },
+                "collapsed_reason_code": {
+                    "type": "null"
+                },
+                "comment_type": {
+                    "type": "null"
+                },
+                "controversiality": {
+                    "type": "integer"
+                },
+                "created": {
+                    "type": "number"
+                },
+                "created_utc": {
+                    "type": "number"
+                },
+                "distinguished": {
+                    "type": "null"
+                },
+                "downs": {
+                    "type": "integer"
+                },
+                "edited": {
+                    "type": "boolean"
+                },
+                "gilded": {
+                    "type": "integer"
+                },
+                "gildings": {
+                    "$ref": "#/definitions/Gildings"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "is_submitter": {
+                    "type": "boolean"
+                },
+                "likes": {
+                    "type": "boolean"
+                },
+                "link_id": {
+                    "type": "string"
+                },
+                "locked": {
+                    "type": "boolean"
+                },
+                "mod_note": {
+                    "type": "null"
+                },
+                "mod_reason_by": {
+                    "type": "null"
+                },
+                "mod_reason_title": {
+                    "type": "null"
+                },
+                "mod_reports": {
+                    "items": {},
+                    "type": "array"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "no_follow": {
+                    "type": "boolean"
+                },
+                "num_reports": {
+                    "type": "null"
+                },
+                "parent_id": {
+                    "type": "string"
+                },
+                "permalink": {
+                    "type": "string"
+                },
+                "removal_reason": {
+                    "type": "null"
+                },
+                "replies": {
+                    "type": "string"
+                },
+                "report_reasons": {
+                    "type": "null"
+                },
+                "rte_mode": {
+                    "type": "string"
+                },
+                "saved": {
+                    "type": "boolean"
+                },
+                "score": {
+                    "type": "integer"
+                },
+                "score_hidden": {
+                    "type": "boolean"
+                },
+                "send_replies": {
+                    "type": "boolean"
+                },
+                "stickied": {
+                    "type": "boolean"
+                },
+                "subreddit": {
+                    "type": "string"
+                },
+                "subreddit_id": {
+                    "type": "string"
+                },
+                "subreddit_name_prefixed": {
+                    "type": "string"
+                },
+                "subreddit_type": {
+                    "type": "string"
+                },
+                "top_awarded_type": {
+                    "type": "null"
+                },
+                "total_awards_received": {
+                    "type": "integer"
+                },
+                "treatment_tags": {
+                    "items": {},
+                    "type": "array"
+                },
+                "unrepliable_reason": {
+                    "type": "null"
+                },
+                "ups": {
+                    "type": "integer"
+                },
+                "user_reports": {
+                    "items": {},
+                    "type": "array"
+                }
+            },
+            "required": [
+                "all_awardings",
+                "approved_at_utc",
+                "approved_by",
+                "archived",
+                "associated_award",
+                "author",
+                "author_flair_background_color",
+                "author_flair_css_class",
+                "author_flair_richtext",
+                "author_flair_template_id",
+                "author_flair_text",
+                "author_flair_text_color",
+                "author_flair_type",
+                "author_fullname",
+                "author_is_blocked",
+                "author_patreon_flair",
+                "author_premium",
+                "awarders",
+                "banned_at_utc",
+                "banned_by",
+                "body",
+                "body_html",
+                "can_gild",
+                "can_mod_post",
+                "collapsed",
+                "collapsed_because_crowd_control",
+                "collapsed_reason",
+                "collapsed_reason_code",
+                "comment_type",
+                "controversiality",
+                "created",
+                "created_utc",
+                "distinguished",
+                "downs",
+                "edited",
+                "gilded",
+                "gildings",
+                "id",
+                "is_submitter",
+                "likes",
+                "link_id",
+                "locked",
+                "mod_note",
+                "mod_reason_by",
+                "mod_reason_title",
+                "mod_reports",
+                "name",
+                "no_follow",
+                "num_reports",
+                "parent_id",
+                "permalink",
+                "removal_reason",
+                "replies",
+                "report_reasons",
+                "rte_mode",
+                "saved",
+                "score",
+                "score_hidden",
+                "send_replies",
+                "stickied",
+                "subreddit",
+                "subreddit_id",
+                "subreddit_name_prefixed",
+                "subreddit_type",
+                "top_awarded_type",
+                "total_awards_received",
+                "treatment_tags",
+                "unrepliable_reason",
+                "ups",
+                "user_reports"
+            ],
+            "title": "Comment",
+            "type": "object"
+        },
+        "Gildings": {
+            "additionalProperties": false,
+            "title": "Gildings",
+            "type": "object"
+        }
+    }
+}
